@@ -1,7 +1,7 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
- * main -Entry point
+ * Main -Entry point
  *
  * Description: A C program that prints with put function
  *
