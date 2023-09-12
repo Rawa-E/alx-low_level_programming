@@ -5,16 +5,17 @@
  *
  * Description: prints _putchar using putchar prototype
  *
- * Return: 0 (success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char str[] = "_putchar";
+	char str[]= "_putchar";
 	int ch;
 
-	for (ch = 0; ch < 8; ch++)
+	for(ch = 0; ch < 8; ch++)
 		_putchar(str[ch]);
-	-put('/n');
+	_putchar('/n');
 
-	return (0);
+	return (0)
+
