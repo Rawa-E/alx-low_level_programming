@@ -29,5 +29,5 @@ void print_number(int n)
 			n *= -1;
 		}
 	/* print out n */
-	_putchar(n + '0');
+	putchar(n + '0');
 }
