@@ -24,7 +24,7 @@ void print_number(int n)
 		if (n < 0)
 		{
 			/* print a minus sign */
-			_putchar('-');
+			putchar('-');
 			/* and make n positive */
 			n *= -1;
 		}
